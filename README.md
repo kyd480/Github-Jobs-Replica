@@ -8,5 +8,6 @@ Todo:
   - Style description and add the apply information
   - Star jobs to come back to
   - Rendering efficiency
+  - Need to make mobile friendly
   
 ![Alt text](./ScreenShot.png?raw=true "Screen Shot")
