@@ -1,0 +1,71 @@
+.jobs-page {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    overflow: hidden;
+
+    .body {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+
+        .job-side-panel {
+            height: calc(100vh - 90px);
+            overflow-y: scroll;
+    
+            .flex-row {
+                display: flex;
+                align-items: center;
+    
+                .scaled-img {
+                    height: 50px;
+                    width: 50px;
+                    min-width: 50px;
+                    display: flex;
+                    align-items: center;
+    
+                    img {
+                        width: 100%;
+                        object-fit: cover;
+                    }
+                }
+    
+                .img-filler {
+                    height: 50px;
+                    width: 50px;
+                    min-width: 50px;
+                    text-align: center;
+                    vertical-align: middle;
+                    line-height: 50px;
+                    font-size: 8px;                
+                    border: 1px solid black;
+                }
+    
+                .details {
+                    margin-left: 15px;
+                }
+    
+                h5 {
+                    margin: 2px 0px;
+                    font-weight: bold;
+                    overflow-wrap: break-word;
+                }
+    
+                .left-column {
+                    min-width: 60px;
+                    h6 {
+                        margin: 2px 0px;
+                        color: grey;
+                    }
+                }
+            }
+            
+        }
+    
+        .job-description {
+            height: calc(100vh - 90px);
+            overflow-y: scroll;
+        }    
+    }
+        
+}
